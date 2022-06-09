@@ -1,18 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
-public class MainMenuController : MonoBehaviour
+namespace Controllers
 {
-    // Start is called before the first frame update
-    void Start()
+    public class MainMenuController : MonoBehaviour
     {
-        
-    }
+        void Start()
+        {
+            var root = GetComponent<UIDocument>().rootVisualElement;
+            var playButton = root.Q<Button>("play-button");
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+            playButton.clicked += () => Debug.Log("Clicked on Play");
+        }
+
     }
 }

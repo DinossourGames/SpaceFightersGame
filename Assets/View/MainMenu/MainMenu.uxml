@@ -1,10 +1,10 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="styles.uss" />
-    <ui:VisualElement class="root-container">
+    <ui:VisualElement name="VisualElement" class="root-container">
         <ui:VisualElement class="center-container">
             <ui:TextField name="username-text" text="Username" class="text-input" />
             <ui:TextField name="address-text" text="Server Ip" class="text-input" />
-            <ui:Button text="Start Game" name="play-button" class="play-button" />
+            <ui:Button text="Launch" name="play-button" class="play-button" style="-unity-font: url(&apos;/Assets/Fonts/comici.ttf&apos;);" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

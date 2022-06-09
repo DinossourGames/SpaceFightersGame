@@ -19,16 +19,16 @@
     color: white;
     font-size: 32px;
     -unity-font-style: bold;
-    background-color: rgb(19, 9, 32);
+    background-color: rgb(7, 23, 42);
     border-radius: 6px;
 }
 
 .play-button:hover {
-    background-color: rgb(40, 8, 54);
+    background-color: rgb(12, 33, 56);
 }
 
 .play-button:active {
-    background-color: rgb(59, 10, 80);
+    background-color: rgb(31, 67, 110);
 }
 
 .text-input {
