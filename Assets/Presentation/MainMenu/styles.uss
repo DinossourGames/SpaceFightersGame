@@ -1,0 +1,40 @@
+.root-container {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-container {
+    background-color: white;
+    width: 20%;
+    padding: 10px;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.play-button {
+    margin-top: 20px;
+    width: 90%;
+    height: 80px;
+    color: white;
+    font-size: 32px;
+    -unity-font-style: bold;
+    background-color: rgb(19, 9, 32);
+    border-radius: 6px;
+}
+
+.play-button:hover {
+    background-color: rgb(40, 8, 54);
+}
+
+.play-button:active {
+    background-color: rgb(59, 10, 80);
+}
+
+.text-input {
+    width: 90%;
+    background-color: white;
+    background-image: none;
+    color: black;
+    margin: 10px;
+}
