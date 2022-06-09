@@ -28,7 +28,7 @@
 }
 
 .play-button:active {
-    background-color: rgb(31, 67, 110);
+    background-color: rgb(13, 35, 59);
 }
 
 .text-input {
